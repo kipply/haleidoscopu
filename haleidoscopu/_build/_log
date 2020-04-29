@@ -1,0 +1,10 @@
+### Starting build.
+# Target: lexer.ml.depends, tags: { extension:ml, file:lexer.ml, ocaml, ocamldep, quiet }
+ocamldep.opt -modules lexer.ml > lexer.ml.depends
++ ocamldep.opt -modules lexer.ml > lexer.ml.depends
+File "lexer.ml", line 10, characters 2-3:
+10 |   | [< ' (' ' | '\n' | '\r' | '\t'); stream >] -> lex stream
+       ^
+Error: Syntax error
+Command exited with code 2.
+# Compilation unsuccessful.
